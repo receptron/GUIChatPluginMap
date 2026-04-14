@@ -1,6 +1,6 @@
 {
   "name": "@gui-chat-plugin/map",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "type": "module",
   "description": "Google Map location plugin for GUI Chat applications",
   "author": "receptron",
@@ -31,7 +31,7 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "gui-chat-protocol": "^0.0.3"
+    "gui-chat-protocol": "^0.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -42,7 +42,7 @@
     "eslint": "^10.1.0",
     "eslint-plugin-vue": "^10.8.0",
     "globals": "^17.4.0",
-    "gui-chat-protocol": "^0.0.4",
+    "gui-chat-protocol": "^0.1.0",
     "tailwindcss": "^4.2.2",
     "typescript": "~6.0.2",
     "vite": "^8.0.3",
