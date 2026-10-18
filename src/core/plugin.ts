@@ -2,10 +2,7 @@ import type { ToolContext, ToolResult, ToolPluginCore } from "gui-chat-protocol"
 import type { MapToolData, MapArgs } from "./types";
 import { TOOL_NAME, TOOL_DEFINITION } from "./definition";
 
-export const showMap = async (
-  _context: ToolContext,
-  args: MapArgs,
-): Promise<ToolResult<MapToolData>> => {
+export const showMap = async (_context: ToolContext, args: MapArgs): Promise<ToolResult<MapToolData>> => {
   const { location } = args;
 
   if (!location || typeof location !== "string") {

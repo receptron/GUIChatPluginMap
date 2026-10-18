@@ -16,12 +16,7 @@ export const plugin: ToolPlugin<MapToolData, unknown, MapArgs> = {
 
 export type { MapToolData, MapArgs } from "../core/types";
 
-export {
-  TOOL_NAME,
-  TOOL_DEFINITION,
-  executeMap,
-  pluginCore,
-} from "../core/plugin";
+export { TOOL_NAME, TOOL_DEFINITION, executeMap, pluginCore } from "../core/plugin";
 
 export { samples } from "../core/samples";
 
