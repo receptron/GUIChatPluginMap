@@ -1,6 +1,7 @@
 # @gui-chat-plugin/map
 
 [![npm version](https://badge.fury.io/js/%40gui-chat-plugin%2Fmap.svg)](https://www.npmjs.com/package/@gui-chat-plugin/map)
+[![scoria](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/receptron/GUIChatPluginMap/badges/scoria.json)](https://github.com/receptron/GUIChatPluginMap/actions/workflows/scoria.yml)
 
 Google Map location plugin for GUI Chat applications. Display locations on an interactive map.
 
